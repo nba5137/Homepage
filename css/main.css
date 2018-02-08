@@ -40,6 +40,7 @@ html, body {
 /* 03. Section styles & List */
 
 .main-title-1   {
+	margin-top: 250px;
 	font-size: 3rem;
 	line-height: 100%;
 	text-transform: uppercase;
