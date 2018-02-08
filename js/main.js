@@ -24,6 +24,7 @@ function Func_me() {
 
 /* 2. Change showing case */
 function Func_me() {
+	$("#c0").fadeOut(1500);
     $("#c2").fadeOut(1500);
     $("#c3").fadeOut(1500);
     $("#c1").fadeIn(1500);
@@ -31,6 +32,7 @@ function Func_me() {
 }
 
 function Func_pur() {
+	$("#c0").fadeOut(1500);
     $("#c1").fadeOut(1500);
     $("#c3").fadeOut(1500);
     $("#c2").fadeIn(1500);
@@ -38,6 +40,7 @@ function Func_pur() {
 }
 
 function Func_con() {
+	$("#c0").fadeOut(1500);
     $("#c1").fadeOut(1500);
     $("#c2").fadeOut(1500);
     $("#c3").fadeIn(1500);

@@ -40,7 +40,6 @@ html, body {
 /* 03. Section styles & List */
 
 .main-title-1   {
-	margin-top: 250px;
 	font-size: 3rem;
 	line-height: 100%;
 	text-transform: uppercase;
@@ -61,15 +60,20 @@ html, body {
 
 .horil {
 	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left:auto;
+	margin-right:auto;
+	width: 680px;
 }
 
 .horil ul {
     list-style-type: none;
-    min-width: 1300px;
+    margin: 0;
 }
 .horil li {
-	margin-left: 22rem;
 	display: inline;
+	margin-right: 10px;
     padding: 20px;
     padding-top: 30px;
     background-color: #000000;
@@ -187,7 +191,7 @@ html, body {
 	position: absolute;
 	width: 100%;
 	min-width: 500px;
-	height: 49px;
+	height: 50px;
 	background-color: #000000; 
 	padding-top: 1px;
 	text-align: center;
