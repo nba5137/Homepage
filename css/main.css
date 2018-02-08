@@ -5,7 +5,7 @@
  * 02. Base styles
  * 03. Section styles & List
  * 04. Header & Backgrounds
- * 05. Paddings
+ * 05. Paddings & Shapes
  * 06. 'About me' format
  * 07. 'My purpose' format
  * 08. 'Contact me' format
@@ -56,6 +56,15 @@ html, body {
 	color: black;
 	text-align: center;
 	text-shadow: 2px 2px 4px white;
+}
+
+.center-case {
+	position: absolute; 
+	top: 40%; 
+	left:0; 
+	right:0;
+	margin-left: auto;
+	margin-right:auto;
 }
 
 .horil {
@@ -153,38 +162,6 @@ html, body {
 	background: #111111;
 	opacity: .65;
 	z-index: -1;
-}
-
-.pd-1 {
-	position: absolute;
-	width: 100%;
-	min-width: 500px;
-	height: 1000px;
-	background-color: white; 
-	padding-top: 15rem;
-	padding-bottom: 15rem;
-	text-align: center;
-}
-
-.pd-2 {
-	position: absolute;
-	width: 100%;
-	min-width: 500px;
-	height: 800px;
-	background-color: #003D79; 
-	padding-top: 15rem;
-	padding-bottom: 15rem;
-	text-align: center;
-}
-
-.pd-3 {
-	position: absolute;
-	width: 100%;
-	min-width: 500px;
-	background-color: #9999CC; 
-	padding-top: 15rem;
-	padding-bottom: 15rem;
-	text-align: center;
 }
 
 .pd-end {
