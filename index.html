@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+
+<!--- HEAD
+================================================== -->
+<head>
+
+<!--- basic page needs
+================================================== -->
+<meta charset="utf-8">
+<title>Hey! I'm Sibo! </title>
+<meta name="description" content="Personal homepage">  
+<meta name="author" content="Song">
+
+<!--- CSS
+================================================== -->
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="css/grid.css">
+
+<!-- mobile specific metas
+================================================== -->
+<meta name="viewport" content="width=500px,height=1000px,initial-scale=1.0">
+
+<!-- favicons
+================================================== -->
+<link rel="icon" type="image/png" href="favicon.png">
+
+</head>
+
+<!--- BODY
+================================================== -->
+<body class="bg-1" style="display: inline-block;" onload="initial()">
+
+<header class="nav nexa">
+
+<div class="pd-h">
+	<div class="box-1">
+		<div style="transform: skew(-15deg);">
+			<a href="#home" onclick="Func_top()">SIBO SONG</a>
+		</div>
+	</div>
+</div>
+<!--
+<div>
+  <ul>
+    <li><a href="#home" onclick="Func_top()">Home</a></li>
+    <li><a href="#" onclick="Func_me()">About me</a></li>
+    <li><a href="#" onclick="Func_pur()">My purpose</a></li>
+    <li><a href="#" onclick="Func_con()">Contact me</a></li>
+  </ul>
+</div>
+-->
+<center>
+<div class="shape-t">
+	<div id="myTitle" class="nexa shape-font"></div>	
+</div>
+</center>
+
+</header>
+
+<section id="showing">
+<div class="riffic">
+	<div id="c1"><h1 class="main-title-1">Hello, my friend!</h1></div>
+	<div id="c2"><h1 class="main-title-1" >I'm Sibo Song.</h1></div>
+	<div id="c3"><h1 class="main-title-1" >YOYO.</h1></div>
+</div>
+
+<div id="show_list" class="horil riffic table">
+<script language="javascript"type="text/javascript">
+	var height1 = document.documentElement.clientHeight;
+	var fix = 150;
+    document.getElementById("show_list").style.top = height1 - fix + "px";
+</script>
+  <ul>
+    <li><a href="#" onmouseover="Func_me()">About me</a></li>
+    <li><a href="#" onmouseover="Func_pur()">My purpose</a></li>
+    <li><a href="#" onmouseover="Func_con()">Contact me</a></li>
+  </ul>
+</div>
+
+</section>
+
+<section id="ending">
+<div id="end" class="pd-end">
+<script language="javascript"type="text/javascript">
+	var height1 = document.documentElement.clientHeight;
+	var fix = 50;
+    document.getElementById("end").style.top = height1 - fix + "px";
+</script>	
+	<div style="text-align: center;">	
+		===END===
+	</div>
+</div>
+</section>
+
+<!-- JavaScript-->
+<script src="js/jquery.min.js"></script> <!-- Resource jQuery -->
+<script src="js/main.js"></script>
+<script>
+function initial() {
+    document.getElementById("myTitle").innerHTML = "Welcome";
+}
+</script>
+
+</body>
+
+</html>
