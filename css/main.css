@@ -68,8 +68,40 @@ html, body {
 	margin-right: auto;
 }
 
+@media only screen and (max-width: 750px) {
+	.main-title-1   {
+		font-size: 1.5rem;
+		line-height: 100%;
+		text-transform: uppercase;
+		letter-spacing: .2rem;
+		color: #FF7F00;
+		text-align: center;
+		text-shadow: 2px 2px 4px white;
+	}
+
+	.main-title-2   {
+		margin-top:-1px;
+		font-size: 4rem;
+		line-height: 100%;
+		letter-spacing: .2rem;
+		color: black;
+		text-align: center;
+		text-shadow: 4px 4px 4px white;
+	}
+
+	.center-case {
+		position: absolute; 
+		margin-top: 28rem; 
+		left:0; 
+		right:0;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
 .horil {
 	width: 62.5rem;
+	margin-top: 61rem;
 }
 
 .horil ul {
@@ -84,7 +116,6 @@ html, body {
     padding-top: 30px;
     background-color: #000000;
     border-radius: 50%;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 .horil li a {
@@ -98,6 +129,31 @@ html, body {
 
 .horil li:hover {
     background-color: #c0c0c0;
+}
+
+@media only screen and (max-width: 750px) {
+	.horil {
+		width: 22.5rem;
+		margin-top: 50rem;
+	}
+	
+	.horil li {
+		display: block;
+		margin-bottom: 10px;
+		padding: 10px;
+		padding-top: 10px;
+		background-color: #000000;
+		border-radius: 50%;
+		text-align: center;
+	}
+	.horil li a {
+		font-size: 1.2rem;
+		line-height: 100%;
+		letter-spacing: .2rem;
+		color: #F6F6F6;
+		text-align: center;
+		text-decoration: none;
+	}
 }
 
 /* 04. Header & Backgrounds */
@@ -119,6 +175,39 @@ html, body {
 	text-decoration: none;
 }
 
+.box-1 {
+	margin-left: 5.5rem;
+	margin-top: 3.5rem;
+	padding-top: 2.6rem;
+	height: 5.5rem;
+	width: 30rem; 
+	background-color: rgba(0, 0, 0, 0.5);
+	box-shadow: 2px 2px 5px black;
+	transform: skew(15deg);
+}
+
+@media only screen and (max-width: 750px) {
+	.nav a {
+		font-size: 2rem;
+		line-height: 100%;
+		letter-spacing: .2rem;
+		color: #F6F6F6;
+		text-shadow: 4px 4px 8px #33334d;
+		text-decoration: none;
+	}
+	
+	.box-1 {
+		margin-left: 3.5rem;
+		margin-top: 1.5rem;
+		padding-top: 1rem;
+		height: 2.5rem;
+		width: 15rem; 
+		background-color: rgba(0, 0, 0, 0.5);
+		box-shadow: 2px 2px 5px black;
+		transform: skew(15deg);
+	}
+}
+
 .bg-1 {
 	height: auto;
 	width: auto;
@@ -132,17 +221,16 @@ html, body {
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 100%;
+	width: auto;
 	height: 100%;
-	min-width: 500px;
 	background: #e89209;
 	opacity: .2;
 	z-index: -1;
 }
 
 .pd-h{
-	width: 100%;
-	min-width: 500px;
+	width: auto;
+	min-width: 750px;
 	height: 200px;
 	background-image: url("../images/header.jpg");
 	background-repeat: no-repeat;
@@ -152,21 +240,9 @@ html, body {
 	text-align: center;
 }
 
-.box-1 {
-	margin-left: 5.5rem;
-	margin-top: 3.5rem;
-	padding-top: 2.6rem;
-	height: 5.5rem;
-	width: 30rem; 
-	background-color: rgba(0, 0, 0, 0.5);
-	box-shadow: 2px 2px 5px black;
-	transform: skew(15deg);
-}
-
 .pd-end {
 	position: absolute;
 	width: 100%;
-	min-width: 500px;
 	height: 40px;
 	background-color: #000000; 
 	padding-top: 1px;
@@ -192,7 +268,6 @@ html, body {
 	text-transform: uppercase;
 }
 
-@media only screen and (min-width:501px){
 .shape-t {
 	position: relative;
 	width: 20em; 
@@ -215,25 +290,45 @@ html, body {
 	top: 100%;
 	border-top: 25px solid #000000;
 }
-{display: none;}
-}
 
-/* Title shapes - small version */
-@media only screen and (max-width:501px){
-.hexagon {
-  top: -7.5em;
-  left: 0em;
-  position: relative;
-  width: 20em; 
-  height: 5em;
-  background-color: #000000;
-  margin: 0px;
-  z-index: 9;
-}
-{display: none;}
+@media only screen and (max-width: 750px) {
+	.shape-font{
+		padding-top: 0px;
+		font-size: 1rem; 
+		color: #F6F6F6; 
+		text-align: center; 
+		text-transform: uppercase;
+	}
+
+	.shape-t {
+		position: relative;
+		width: 10em; 
+		height: 2em;
+		background-color: #000000;
+		margin: 0px;
+		z-index: 9;
+		padding-top: 0.5rem;
+	}
+
+	.shape-t:after {
+		content: "";
+		position: absolute;
+		border-left: 5em solid transparent;
+		border-right: 5em solid transparent;
+	}
+
+	.shape-t:after {
+		left: 0;
+		top: 100%;
+		border-top: 25px solid #000000;
+	}
 }
 
 /* 06. 'About me' format */
+#c1 {
+	width: 50rem;
+}
+
 #c1 img {
 	height: 15rem;
 	width: 15rem;
@@ -257,7 +352,36 @@ html, body {
 	text-shadow: 1px 1px 2.5px #0e3a82;
 }
 
+@media only screen and (max-width: 750px) {
+	#c1 {
+		width: 15rem;
+	}
+	#c1 img {
+		height: 5rem;
+		width: 5rem;
+		border-radius: 50%;
+		float: left; 
+		margin: 1.5rem 1.5rem 0 0; 
+	}
+
+	#c1 span{
+		text-align: right;
+	}
+
+	#c1 fsize {
+		font-size: 1.5rem;
+		line-height: 120%;
+		letter-spacing: .23rem;
+		color: #0e3a82;
+	}
+}
+
 /* 07. 'My purpose' format */
+#c2 {
+	width: 80rem; 
+	margin-top:28rem
+}
+
 #c2 p {
 	font-size: 3rem;
 	line-height: 120%;
@@ -269,13 +393,40 @@ html, body {
 }
 
 #c2 p2 {
-	font-size: 2.5rem;
+	font-size: 3rem;
 	line-height: 120%;
 	letter-spacing: 0.2rem;
 	color: black;
 	text-align: left;
 	text-shadow: 2px 2px 2px #808080;
 	text-decoration: none;
+}
+
+@media only screen and (max-width: 750px) {
+	#c2 {
+		width: 20rem; 
+		margin-top:25rem
+	}
+
+	#c2 p {
+		font-size: 1.5rem;
+		line-height: 100%;
+		letter-spacing: 0.2rem;
+		color: #0e3a82;
+		text-align: left;
+		text-shadow: 1px 1px 2px black;
+		text-decoration: none;
+	}
+
+	#c2 p2 {
+		font-size: 1.5rem;
+		line-height: 100%;
+		letter-spacing: 0rem;
+		color: black;
+		text-align: left;
+		text-shadow: 1px 1px 2px #808080;
+		text-decoration: none;
+	}
 }
 
 /* 08. 'Contact me' format */
@@ -287,4 +438,21 @@ html, body {
 	text-align: center;
 	text-shadow: 2px 2px 2px #808080;
 	text-decoration: none;
+}
+
+@media only screen and (max-width: 750px) {
+	#c3 {
+		margin-top: 30rem;
+		width: 30rem;
+	}
+	
+	#c3 a {
+		font-size: 2rem;
+		line-height: 100%;
+		letter-spacing: 0.2rem;
+		color: black;
+		text-align: center;
+		text-shadow: 1px 1px 2px #808080;
+		text-decoration: none;
+	}
 }
