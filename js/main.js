@@ -24,26 +24,26 @@ function Func_me() {
 
 /* 2. Change showing case */
 function Func_me() {
-	$("#c0").fadeOut(1500);
-    $("#c2").fadeOut(1500);
-    $("#c3").fadeOut(1500);
-    $("#c1").fadeIn(1500);
+	$("#c0").fadeOut(1000);
+    $("#c2").fadeOut(1000);
+    $("#c3").fadeOut(1000);
+    $("#c1").fadeIn(1000);
     document.getElementById("myTitle").innerHTML = "about me";
 }
 
 function Func_pur() {
-	$("#c0").fadeOut(1500);
-    $("#c1").fadeOut(1500);
-    $("#c3").fadeOut(1500);
-    $("#c2").fadeIn(1500);
+	$("#c0").fadeOut(1000);
+    $("#c1").fadeOut(1000);
+    $("#c3").fadeOut(1000);
+    $("#c2").fadeIn(1000);
     document.getElementById("myTitle").innerHTML = "my purpose";
 }
 
 function Func_con() {
-	$("#c0").fadeOut(1500);
-    $("#c1").fadeOut(1500);
-    $("#c2").fadeOut(1500);
-    $("#c3").fadeIn(1500);
+	$("#c0").fadeOut(1000);
+    $("#c1").fadeOut(1000);
+    $("#c2").fadeOut(1000);
+    $("#c3").fadeIn(1000);
     document.getElementById("myTitle").innerHTML = "contact me";
 }
 

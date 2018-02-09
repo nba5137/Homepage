@@ -50,6 +50,7 @@ html, body {
 }
 
 .main-title-2   {
+	margin-top:-1px;
 	font-size: 10rem;
 	line-height: 100%;
 	letter-spacing: .2rem;
@@ -60,19 +61,14 @@ html, body {
 
 .center-case {
 	position: absolute; 
-	top: 40%; 
+	margin-top: 32rem; 
 	left:0; 
 	right:0;
 	margin-left: auto;
-	margin-right:auto;
+	margin-right: auto;
 }
 
 .horil {
-	position: absolute;
-	left: 0;
-	right: 0;
-	margin-left:auto;
-	margin-right:auto;
 	width: 680px;
 }
 
@@ -151,18 +147,6 @@ html, body {
 	box-shadow: 2px 2px 5px black;
 	transform: skew(15deg);
 }
-.overlay {
-	position: absolute;
-	margin-top: 200px;
-	margin-bottom: 200px;
-	left: 0;
-	width: 100%;
-	min-width: 500px;
-	height: 1080px;
-	background: #111111;
-	opacity: .65;
-	z-index: -1;
-}
 
 .pd-end {
 	position: absolute;
@@ -171,11 +155,14 @@ html, body {
 	height: 50px;
 	background-color: #000000; 
 	padding-top: 1px;
-	text-align: center;
 }
 
 .pd-end h1{
-	
+	font-size: 1.2rem;
+	color: white; 
+	position: absolute; 
+	right: 12px; 
+	bottom: 2px;
 }
 
 /* Title shapes */
@@ -228,72 +215,47 @@ html, body {
 }
 
 /* 06. 'About me' format */
-.about-me {
-	width: 30%;
-	display: inline-block;
-	text-align: left;
-}
-
-
-.about-me img {
-	height: 11rem;
-	width: 11rem;
+#c1 img {
+	height: 15rem;
+	width: 15rem;
 	border-radius: 50%;
 	float: left; 
-	margin: 2rem 35px 0px 0px; 
-	/*
-	-webkit-shape-margin: .1rem;
-	-moz-shape-margin: .1rem;
-	-ms-shape-margin: .1rem;
-	-o-shape-margin: .1rem;
-	shape-margin: .1rem;
-	-webkit-shape-outside: circle(50%);
-	-moz-shape-outside: circle(50%);
-	-ms-shape-outside: circle(50%);
-	-o-shape-outside: circle(50%);
-	shape-outside: circle(50%);
-	*/
+	margin: 1rem 2rem 0 0; 
 }
 
-.about-me span{
-	text-align: left;
+#c1 span{
+	text-align: right;
 }
 
-.about-me fsize {
+#c1 fsize {
 	font-size: 2rem;
 	line-height: 110%;
-	letter-spacing: .2rem;
+	letter-spacing: .25rem;
 	color: #808080;
 }
 
-.about-me key {
+#c1 key {
 	color: #000000;
 }
 
 /* 07. 'My purpose' format */
-.my-pur {
-	width: 50%;
-	display: inline-block;
+#c2 p {
+	font-size: 2.5rem;
+	line-height: 120%;
+	letter-spacing: 0.2rem;
+	color: black;
 	text-align: left;
-}
-
-.my-pur p {
-	font-size: 3rem;
-	line-height: 110%;
-	letter-spacing: .2rem;
-	color: white;
+	text-shadow: 2px 2px 2px #808080;
+	text-decoration: none;
 }
 
 /* 08. 'Contact me' format */
-.my-pur {
-	width: 50%;
-	display: inline-block;
-	text-align: left;
-}
-
-.my-pur p {
-	font-size: 3rem;
-	line-height: 110%;
-	letter-spacing: .2rem;
-	color: white;
+#c3 a {
+	font-size: 4rem;
+	line-height: 100%;
+	letter-spacing: 0.2rem;
+	color: black;
+	text-align: center;
+	text-shadow: 2px 2px 2px #808080;
+	text-decoration: none;
 }
