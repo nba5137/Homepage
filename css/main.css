@@ -9,6 +9,7 @@
  * 06. 'About me' format
  * 07. 'My purpose' format
  * 08. 'Contact me' format
+ * 09. Icons size
  * ============================================
  */
 
@@ -60,11 +61,11 @@ html, body {
 
 .center-case {
 	position: absolute; 
-	margin-top: 32rem; 
 	left:0; 
 	right:0;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 32rem; 
 }
 
 @media only screen and (max-width: 750px) {
@@ -94,11 +95,11 @@ html, body {
 
 	.center-case {
 		position: absolute; 
-		margin-top: 28rem; 
 		left:0; 
 		right:0;
 		margin-left: auto;
 		margin-right: auto;
+		margin-top: 28rem; 
 	}
 }
 
@@ -455,6 +456,7 @@ html, body {
 		width: 28rem;
 		margin-top: 20rem;
 	}
+	
 	#c1 img {
 		height: 5rem;
 		width: 5rem;
@@ -622,5 +624,61 @@ html, body {
 		text-align: center;
 		text-shadow: 1px 1px 2px #808080;
 		text-decoration: none;
+	}
+}
+
+/* 09. Icons size */
+.icons {
+	position: absolute;
+	top: 7.6rem;
+	right: 1rem;
+	width: 38.5rem;
+}
+
+.icons img {
+	width: 5rem;
+	height: 5rem;
+}
+
+.icons li {
+	display: inline;
+	margin-right: 4rem
+}
+
+@media only screen and (max-width: 1600px) {
+	.icons {
+		position: absolute;
+		top: 7.6rem;
+		right: 1rem;
+		width: 38.5rem;
+	}
+
+	.icons img {
+		width: 5rem;
+		height: 5rem;
+	}
+
+	.icons li {
+		display: inline;
+		margin-right: 4rem
+	}
+}
+
+@media only screen and (max-width: 750px) {
+	.icons {
+		position: absolute;
+		top: 7.6rem;
+		right: 1rem;
+		width: 38.5rem;
+	}
+
+	.icons img {
+		width: 5rem;
+		height: 5rem;
+	}
+
+	.icons li {
+		display: inline;
+		margin-right: 4rem
 	}
 }
