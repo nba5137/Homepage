@@ -126,6 +126,8 @@ html, body {
     padding-top: 30px;
     background-color: #000000;
     border-radius: 50%;
+    opacity: 0.5;
+	transition: 0.6s;
 }
 
 .horil li a {
@@ -138,7 +140,7 @@ html, body {
 }
 
 .horil li:hover {
-    background-color: #c0c0c0;
+    opacity: 1;
 }
 
 .horil li2 {
