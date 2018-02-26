@@ -36,6 +36,7 @@ html {
 
 html, body {
 	height: 100%;
+	min-height: 759px;
 }
 
 /* 03. Section styles & List */
@@ -300,6 +301,7 @@ html, body {
 	left: 0;
 	width: 100%;
 	height: 100%;
+	min-height: 759px;
 	background: #e89209;
 	opacity: .2;
 	z-index: -1;
