@@ -472,7 +472,7 @@ html, body {
 /* 06. 'About me' format */
 #c1 {
 	width: 52rem;
-	margin-top: 34rem;
+	margin-top: 32.5rem;
 }
 
 #c1 img {
@@ -501,7 +501,7 @@ html, body {
 @media only screen and (max-height: 1000px){
 	#c1 {
 		width: 52rem;
-		margin-top: 31.5rem;
+		margin-top: 30rem;
 	}
 
 	#c1 img {
@@ -527,7 +527,7 @@ html, body {
 @media only screen and (max-width: 1600px) {
 	#c1 {
 		width: 52rem;
-		margin-top: 31rem;
+		margin-top: 29.5rem;
 	}
 
 	#c1 img {
@@ -553,7 +553,7 @@ html, body {
 @media only screen and (max-width: 750px) {
 	#c1 {
 		width: 28rem;
-		margin-top: 20rem;
+		margin-top: 18.5rem;
 	}
 	
 	#c1 img {
@@ -701,7 +701,7 @@ html, body {
 
 /* 08. 'Contact me' format */
 #c3 {
-		margin-top: 35.5rem;
+		margin-top: 34rem;
 }
 
 #c3 a {
@@ -716,19 +716,19 @@ html, body {
 
 @media only screen and (max-height: 1000px){
 	#c3 {
-		margin-top: 32.5rem;
+		margin-top: 31rem;
 	}
 }
 
 @media only screen and (max-width: 1600px) {
 	#c3 {
-		margin-top: 33.5rem;
+		margin-top: 32rem;
 	}
 }
 
 @media only screen and (max-width: 750px) {
 	#c3 {
-		margin-top: 20rem;
+		margin-top: 18.5rem;
 		width: 30rem;
 	}
 	
