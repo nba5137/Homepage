@@ -11,8 +11,9 @@
  * 08. 'Contact me' format
  * 09. Icons size
  * ============================================
- * 750px for portal device.
- * height 1000px for laptop.
+ * origin for normal desktop. 
+ * 750px for portal device. 
+ * height 1000px for laptop. 
  * width 1600px for big screen. 
  */
 
@@ -435,9 +436,9 @@ html, body {
 }
 
 @media only screen and (max-width: 750px) {
-/*edit*/
+/*editting*/
 	.shape-font{
-		padding-top: 0px;
+		padding-top: 1px;
 		font-size: 1rem; 
 		color: #F6F6F6; 
 		text-align: center; 
@@ -447,11 +448,11 @@ html, body {
 	.shape-t {
 		position: relative;
 		width: 10em; 
-		height: 2em;
+		height: 1.5em;
 		background-color: #000000;
-		margin: 0px;
+		margin: -1.8em;
 		z-index: 9;
-		padding-top: 0.5rem;
+		padding-bottom: 0.3rem;
 	}
 
 	.shape-t:after {
@@ -463,8 +464,8 @@ html, body {
 
 	.shape-t:after {
 		left: 0;
-		top: 100%;
-		border-top: 15px solid #000000;
+		bottom: 100%;
+		border-bottom: 8px solid #000000;
 	}
 }
 
@@ -578,7 +579,7 @@ html, body {
 /* 07. 'My purpose' format */
 #c2 {
 	width: 100rem; 
-	margin-top:28rem
+	margin-top:26.5rem;
 }
 
 #c2 p {
@@ -616,14 +617,14 @@ html, body {
 @media only screen and (max-height: 1000px){
 	#c2 {
 		width: 100rem; 
-		margin-top:27rem
+		margin-top:25.5rem;
 	}
 }
 
 @media only screen and (max-width: 1600px) {
 	#c2 {
 		width: 100rem; 
-		margin-top:27.5rem
+		margin-top:26rem;
 	}
 
 	#c2 p {
@@ -662,7 +663,7 @@ html, body {
 @media only screen and (max-width: 750px) {
 	#c2 {
 		width: 26rem; 
-		margin-top:16rem
+		margin-top:14.5rem;
 	}
 
 	#c2 p {
