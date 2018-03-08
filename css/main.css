@@ -43,6 +43,13 @@ html, body {
 	min-height: 759px;
 }
 
+@media only screen and (max-width: 750px) {
+	html, body {
+		height: 100%;
+		min-height: 0;
+	}
+}
+
 /* 03. Section styles & List */
 #c0 {
 	margin-top: 35rem; 
@@ -90,7 +97,7 @@ html, body {
 
 @media only screen and (max-width: 750px) {
 	#c0 {
-		margin-top: 24rem;
+		margin-top: 21.5rem;
 	}
 	
 	.main-title-1   {
@@ -170,7 +177,7 @@ html, body {
 @media only screen and (max-width: 750px) {
 	.horil {
 		width: 18.5rem;
-		margin-top: 43rem;
+		margin-top: 40rem;
 	}
 	
 	.horil li {
@@ -318,6 +325,7 @@ html, body {
 		left: 0;
 		width: 100%;
 		height: 72.5rem;
+		min-height: 759px;
 		background: #e89209;
 		opacity: .2;
 		z-index: -1;
@@ -329,12 +337,14 @@ html, body {
 }
 
 @media only screen and (max-width: 750px) {
+/*edit*/
 	.overlay {
 		position: absolute;
 		top: 0;
 		left: 0;
 		width: 100%;
-		height: 120%;
+		height: 56.5rem;
+		min-height: 0;
 		background: #e89209;
 		opacity: .2;
 		z-index: -1;
@@ -384,7 +394,11 @@ html, body {
 }
 
 @media only screen and (max-width: 750px) {
-/*edit*/
+	.pd-main{
+		width: 100%;
+		height: 56.5rem;
+		display: block;
+	}
 }
 
 .pd-end {
@@ -401,6 +415,17 @@ html, body {
 	text-align: right;
 	padding-right: 0.8rem;
 	font-weight: normal;
+}
+
+@media only screen and (max-width: 750px) {
+	.pd-end {
+		width: 100%;
+		height: 3.5rem;
+		background-color: #000000; 
+		padding-top: 0.1rem;
+		position: absolute;
+		top: 56.5rem;
+	}
 }
 
 /* Title shapes */
@@ -553,7 +578,7 @@ html, body {
 @media only screen and (max-width: 750px) {
 	#c1 {
 		width: 28rem;
-		margin-top: 18.5rem;
+		margin-top: 17.5rem;
 	}
 	
 	#c1 img {
@@ -663,7 +688,7 @@ html, body {
 @media only screen and (max-width: 750px) {
 	#c2 {
 		width: 26rem; 
-		margin-top:14.5rem;
+		margin-top:13rem;
 	}
 
 	#c2 p {
@@ -728,7 +753,7 @@ html, body {
 
 @media only screen and (max-width: 750px) {
 	#c3 {
-		margin-top: 18.5rem;
+		margin-top: 17rem;
 		width: 30rem;
 	}
 	
