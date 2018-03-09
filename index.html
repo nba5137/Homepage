@@ -39,51 +39,61 @@
 <body class="bg-1" onload="initial()">
 
 <header class="nav nexa">
-
-<div class="pd-h">
-	<div class="box-1">
-		<div style="transform: skew(-15deg);">
-			<a href="#home" onclick="Func_top()">SIBO SONG</a>
+<div class="container-flux">
+	<div class="pd-h">
+		<div class="box-1">
+			<div style="transform: skew(-15deg);">
+				<a href="#home" onclick="Func_top()">SIBO SONG</a>
+			</div>
+		</div>
+		<div class="icons row">
+			<a href="https://github.com/nba5137" target="_blank"><img src="images/i-g.png" alt="git-icon"></img></a>
+			<a href="https://www.facebook.com/profile.php?id=100008171464853" target="_blank"><img src="images/i-f.png" alt="fb-icon"></img></a>
+			<a href="https://twitter.com/LoveCrusier" target="_blank"><img src="images/i-t.png" alt="twt-icon"></img></a>
 		</div>
 	</div>
-	<div class="icons">
-		<ul>
-			<li><a href="https://github.com/nba5137" target="_blank"><img src="images/i-g.png" alt="git-icon"></img></a></li>
-			<li><a href="https://www.facebook.com/profile.php?id=100008171464853" target="_blank"><img src="images/i-f.png" alt="fb-icon"></img></a></li>
-			<li><a href="https://twitter.com/LoveCrusier" target="_blank"><img src="images/i-t.png" alt="twt-icon"></img></a></li>
-		</ul>
+	<!---->
+	<div class="sub-menu-parent riffic" tab-index="0">
+		<button type="button" class="btn btn-warning" style="color: black; font-size: 1.6rem;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MENU &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+		<div class="sub-menu">
+			<button type="button" class="btn btn-warning" style="color: black; font-size: 1.6rem;" onmouseover="Func_me()">&nbsp;&nbsp;&nbsp; About Me &nbsp;&nbsp;</button>
+			<button type="button" class="btn btn-warning" style="color: black; font-size: 1.6rem;" onmouseover="Func_pur()">&nbsp;&nbsp;My purpose&nbsp;&nbsp;</button>
+			<button type="button" class="btn btn-warning" style="color: black; font-size: 1.6rem;" onmouseover="Func_con()">&nbsp;&nbsp;&nbsp;Contact Me&nbsp;</button>
+		</div>
 	</div>
-</div>
 
-<center>
-<div class="shape-t">
-	<div id="myTitle" class="nexa shape-font"></div>	
+	<center>
+	<div class="shape-t">
+		<div id="myTitle" class="nexa shape-font"></div>	
+	</div>
+	</center>
 </div>
-</center>
-
 </header>
 
-<section id="showing">
-<div class="pd-main">
-	<div>
-		<div class="overlay"></div>
-		<div id="c0" class="center-case riffic">
+<div id="showing">
+<div class="container-flux">
+	<div class="overlay"></div>
+	<div class="pd-main">
+		<div id="c0" class="riffic">
 			<h1 class="main-title-1">Hello, my friend!</h1>
 			<h1 class="main-title-2">I'm Sibo Song.</h1>
 		</div>
-		<div id="c1" class="center-case acme" style="display: none;">
+		<div id="c1" class="acme" style="display: none;">
 			<img src="images/avatar1-3.jpg" alt="Portrait"></img>
 			<span><fsize><br>Currently, I'm in my <key>senior</key> year of studies 
 				towards <key>Bachelor of Arts</key> in <key>Computer Science</key> 
 				at <br><key>University of Colorado Boulder</key>.<br>In my spare time, I enjoy developing indie games.</fsize></span>
+			<center>
+			<a href="documents/Resume.pdf" target="_blank" class="btn btn-primary" role="button" style="font-size: 2rem; margin-top: 2rem;" >&nbsp;&nbsp; My Resume &nbsp;&nbsp;</a>
+			</center>
 		</div>
-		<div id="c2" class="center-case" style="display: none;">
-			<p class="acme">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For now, I am looking for a Computer Science internship(no- matter paid or unpaid) or a full time job. <br>
+		<div id="c2" style="display: none;">
+			<p class="acme">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For now, I am looking for a Computer Science internship(no matter paid or unpaid) or a full time job. <br>
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My life purpose is to create lots of fantastic new things while I have a job that can support my life, and my motto is: </p><br>
 			<p2 class="riffic">&nbsp;&nbsp;&nbsp;&nbsp;I’m not saying you can’t be financially successful; I’m saying have a greater purpose in life well beyond the pursuit of financial success.</p2><br>
 			<p3 class="riffic">- Morgan Freeman</p3>
 		</div>
-		<div id="c3" class="center-case riffic" style="display: none;">
+		<div id="c3" class="riffic" style="display: none;">
 			<center>
 			<a>Email: </a><u><a href="mailto:siso8575@colorado.edu" target="_top">siso8575@colorado.edu</a></u><br><br><br><br>
 			<a>Phone: +1 720-696-1096<br><br>Address: 2870 E College Ave. #101, Boulder, CO, US 80303</a>
@@ -91,30 +101,19 @@
 		</div>
 	</div>
 
-	<div id="show_list" class="horil riffic center-case">
-	  <ul>
-		<li><a href="#" onmouseover="Func_me()">About me</a></li>
-		<li><a href="#" onmouseover="Func_pur()">My purpose</a></li>
-		<li><a href="#" onmouseover="Func_con()">Contact me</a></li>
-		<li2><a> </a></li2>
-	  </ul>
+	<!--ending-->
+	<div class="pd-end">
+	<!-- Comment out since chrome download window would mess it up. 
+	<script language="javascript"type="text/javascript">
+		var height1 = document.documentElement.scrollHeight;
+		var fix = 50;
+		document.getElementById("end").style.top = height1 - fix + "px";
+	</script>	
+	-->
+		<p>Copyright © 2017-2018 Sibo Song - All  rights reserved. </p>
 	</div>
 </div>
-
-</section>
-
-<section id="ending">
-<div id="end" class="pd-end">
-<!-- Comment out since chrome download window would mess it up. 
-<script language="javascript"type="text/javascript">
-	var height1 = document.documentElement.scrollHeight;
-	var fix = 50;
-    document.getElementById("end").style.top = height1 - fix + "px";
-</script>	
--->
-	<h1>Copyright © 2017-2018 Sibo Song - All  rights reserved. </h1>
 </div>
-</section>
 
 <!-- JavaScript-->
 <script src="js/main.js"></script>
