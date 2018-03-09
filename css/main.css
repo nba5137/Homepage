@@ -11,10 +11,6 @@
  * 08. 'Contact me' format
  * 09. Icons size
  * ============================================
- * origin for normal desktop. 
- * 750px for portal device. 
- * height 1000px for laptop. 
- * width 1600px for big screen. 
  */
 
 /* 01. Fonts */
@@ -40,14 +36,6 @@ html {
 
 html, body {
 	height: 100%;
-	min-height: 759px;
-}
-
-@media only screen and (max-width: 750px) {
-	html, body {
-		height: 100%;
-		min-height: 0;
-	}
 }
 
 /* 03. Section styles & List */
@@ -81,44 +69,6 @@ html, body {
 	right:0;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-@media only screen and (max-height: 1000px){
-	#c0 {
-		margin-top: 32rem;
-	}
-}
-
-@media only screen and (max-width: 1600px) {
-	#c0 {
-		margin-top: 31rem;
-	}
-}
-
-@media only screen and (max-width: 750px) {
-	#c0 {
-		margin-top: 21.5rem;
-	}
-	
-	.main-title-1   {
-		font-size: 1.5rem;
-		line-height: 100%;
-		text-transform: uppercase;
-		letter-spacing: .2rem;
-		color: #FF7F00;
-		text-align: center;
-		text-shadow: 2px 2px 4px white;
-	}
-
-	.main-title-2   {
-		margin-top:-1px;
-		font-size: 4rem;
-		line-height: 100%;
-		letter-spacing: .2rem;
-		color: black;
-		text-align: center;
-		text-shadow: 4px 4px 4px white;
-	}
 }
 
 .horil {
@@ -160,56 +110,6 @@ html, body {
 	display: none;
 }
 
-@media only screen and (max-height: 1000px){
-	.horil {
-		width: 62.5rem;
-		margin-top: 63rem;
-	}
-}
-
-@media only screen and (max-width: 1600px) {
-	.horil {
-		width: 72rem;
-		margin-top: 61rem;
-	}
-}
-
-@media only screen and (max-width: 750px) {
-	.horil {
-		width: 18.5rem;
-		margin-top: 40rem;
-	}
-	
-	.horil li {
-		display: block;
-		margin-bottom: 10px;
-		padding: 10px;
-		padding-top: 10px;
-		background-color: #000000;
-		border-radius: 0%;
-		text-align: center;
-	}
-	.horil li a {
-		font-size: 1.2rem;
-		line-height: 100%;
-		letter-spacing: .2rem;
-		color: #F6F6F6;
-		text-align: center;
-		text-decoration: none;
-		text-shadow: 0.8px 0.8px 1.5px #fffedb;
-	}
-	.horil li2 {
-		max-width: 0px;
-		display: block;
-		margin-bottom: 10px;
-		padding: 10px;
-		padding-top: 10px;
-		background-color: rgba(0,0,0,0);
-		border-radius: 0%;
-		text-align: center;
-	}
-}
-
 /* 04. Header & Backgrounds */
 .nav {
 	text-align: center; 
@@ -240,63 +140,6 @@ html, body {
 	transform: skew(15deg);
 }
 
-@media only screen and (max-height: 1000px){
-	.box-1 {
-		margin-left: 5.5rem;
-		margin-top: 3.5rem;
-		padding-top: 2.6rem;
-		height: 5.5rem;
-		width: 30rem; 
-		background-color: rgba(0, 0, 0, 0.5);
-		box-shadow: 2px 2px 5px black;
-		transform: skew(15deg);
-	}
-}
-
-@media only screen and (max-width: 1600px){
-	.nav a {
-		font-size: 3.5rem;
-		line-height: 100%;
-		letter-spacing: .2rem;
-		color: #F6F6F6;
-		text-shadow: 4px 4px 8px #33334d;
-		text-decoration: none;
-	}
-
-	.box-1 {
-		margin-left: 6.5rem;
-		margin-top: 4.5rem;
-		padding-top: 2.6rem;
-		height: 5.5rem;
-		width: 30rem; 
-		background-color: rgba(0, 0, 0, 0.5);
-		box-shadow: 2px 2px 5px black;
-		transform: skew(15deg);
-	}
-}
-
-@media only screen and (max-width: 750px) {
-	.nav a {
-		font-size: 1.5rem;
-		line-height: 100%;
-		letter-spacing: .2rem;
-		color: #F6F6F6;
-		text-shadow: 4px 4px 8px #33334d;
-		text-decoration: none;
-	}
-	
-	.box-1 {
-		margin-left: 2rem;
-		margin-top: 2.5rem;
-		padding-top: 1.2rem;
-		height: 2.5rem;
-		width: 14rem; 
-		background-color: rgba(0, 0, 0, 0.5);
-		box-shadow: 2px 2px 5px black;
-		transform: skew(15deg);
-	}
-}
-
 .bg-1 {
 	height: auto;
 	width: auto;
@@ -311,44 +154,11 @@ html, body {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 77.6rem;
+	height: 87.6rem;
 	min-height: 759px;
 	background: #e89209;
 	opacity: .2;
 	z-index: -1;
-}
-
-@media only screen and (max-height: 1000px) {
-	.overlay {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 72.5rem;
-		min-height: 759px;
-		background: #e89209;
-		opacity: .2;
-		z-index: -1;
-	}
-}
-
-@media only screen and (max-width: 1600px) {
-/*edit*/
-}
-
-@media only screen and (max-width: 750px) {
-/*edit*/
-	.overlay {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 56.5rem;
-		min-height: 0;
-		background: #e89209;
-		opacity: .2;
-		z-index: -1;
-	}
 }
 
 .pd-h{
@@ -362,43 +172,11 @@ html, body {
 	padding-bottom: 1rem;
 	text-align: center;
 }
-@media only screen and (max-width: 750px) {
-	.pd-h{
-		width: auto;
-		min-width: 750px;
-		height: 100px;
-		background-image: url("../images/header.jpg");
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
-		padding-top: 2rem; 
-		padding-bottom: 1rem;
-		text-align: center;
-	}
-}
 
 .pd-main{
 	width: 100%;
-	height: 77.6rem;
+	height: 87.6rem;
 	display: block;
-}
-
-@media only screen and (max-height: 1000px){
-	.pd-main{
-	width: 100%;
-	height: 72.2rem;
-	display: block;
-}
-
-@media only screen and (max-width: 1600px) {
-/*edit*/
-}
-
-@media only screen and (max-width: 750px) {
-	.pd-main{
-		width: 100%;
-		height: 56.5rem;
-		display: block;
-	}
 }
 
 .pd-end {
@@ -415,17 +193,6 @@ html, body {
 	text-align: right;
 	padding-right: 0.8rem;
 	font-weight: normal;
-}
-
-@media only screen and (max-width: 750px) {
-	.pd-end {
-		width: 100%;
-		height: 3.5rem;
-		background-color: #000000; 
-		padding-top: 0.1rem;
-		position: absolute;
-		top: 56.5rem;
-	}
 }
 
 /* Title shapes */
@@ -460,40 +227,6 @@ html, body {
 	border-bottom: 15px solid #000000;
 }
 
-@media only screen and (max-width: 750px) {
-/*editting*/
-	.shape-font{
-		padding-top: 1px;
-		font-size: 1rem; 
-		color: #F6F6F6; 
-		text-align: center; 
-		text-transform: uppercase;
-	}
-
-	.shape-t {
-		position: relative;
-		width: 10em; 
-		height: 1.5em;
-		background-color: #000000;
-		margin: -1.8em;
-		z-index: 9;
-		padding-bottom: 0.3rem;
-	}
-
-	.shape-t:after {
-		content: "";
-		position: absolute;
-		border-left: 5em solid transparent;
-		border-right: 5em solid transparent;
-	}
-
-	.shape-t:after {
-		left: 0;
-		bottom: 100%;
-		border-bottom: 8px solid #000000;
-	}
-}
-
 /* 06. 'About me' format */
 #c1 {
 	width: 52rem;
@@ -521,84 +254,6 @@ html, body {
 
 #c1 key {
 	text-shadow: 1px 1px 2.5px #0e3a82;
-}
-
-@media only screen and (max-height: 1000px){
-	#c1 {
-		width: 52rem;
-		margin-top: 30rem;
-	}
-
-	#c1 img {
-		height: 13rem;
-		width: 13rem;
-		border-radius: 50%;
-		float: left; 
-		margin: 3.6rem 2rem 0 0; 
-	}
-
-	#c1 span{
-		text-align: right;
-	}
-
-	#c1 fsize {
-		font-size: 2.5rem;
-		line-height: 120%;
-		letter-spacing: .1rem;
-		color: #0e3a82;
-	}
-}
-
-@media only screen and (max-width: 1600px) {
-	#c1 {
-		width: 52rem;
-		margin-top: 29.5rem;
-	}
-
-	#c1 img {
-		height: 13rem;
-		width: 13rem;
-		border-radius: 50%;
-		float: left; 
-		margin: 3.5rem 2rem 0 0; 
-	}
-
-	#c1 span{
-		text-align: right;
-	}
-
-	#c1 fsize {
-		font-size: 2.25rem;
-		line-height: 120%;
-		letter-spacing: .1rem;
-		color: #0e3a82;
-	}
-}
-
-@media only screen and (max-width: 750px) {
-	#c1 {
-		width: 28rem;
-		margin-top: 17.5rem;
-	}
-	
-	#c1 img {
-		height: 5rem;
-		width: 5rem;
-		border-radius: 50%;
-		float: left; 
-		margin: 2.5rem 1.5rem 0 0; 
-	}
-
-	#c1 span{
-		text-align: left;
-	}
-
-	#c1 fsize {
-		font-size: 1.5rem;
-		line-height: 120%;
-		letter-spacing: .23rem;
-		color: #0e3a82;
-	}
 }
 
 /* 07. 'My purpose' format */
@@ -639,91 +294,6 @@ html, body {
 	text-decoration: none;
 }
 
-@media only screen and (max-height: 1000px){
-	#c2 {
-		width: 100rem; 
-		margin-top:25.5rem;
-	}
-}
-
-@media only screen and (max-width: 1600px) {
-	#c2 {
-		width: 100rem; 
-		margin-top:26rem;
-	}
-
-	#c2 p {
-		font-size: 2.5rem;
-		line-height: 120%;
-		letter-spacing: 0.2rem;
-		color: #0e3a82;
-		text-align: left;
-		text-shadow: 1px 1px 2px black;
-		text-decoration: none;
-	}
-
-	#c2 p2 {
-		font-size: 2.5rem;
-		line-height: 120%;
-		letter-spacing: 0.2rem;
-		color: black;
-		text-align: left;
-		text-shadow: 2px 2px 2px #808080;
-		text-decoration: none;
-	}
-
-	#c2 p3 {
-		position: absolute;
-		right: 8rem;
-		font-size: 3rem;
-		line-height: 120%;
-		letter-spacing: 0.2rem;
-		color: black;
-		text-align: left;
-		text-shadow: 2px 2px 2px #808080;
-		text-decoration: none;
-	}
-}
-
-@media only screen and (max-width: 750px) {
-	#c2 {
-		width: 26rem; 
-		margin-top:13rem;
-	}
-
-	#c2 p {
-		font-size: 1.5rem;
-		line-height: 105%;
-		letter-spacing: 0.2rem;
-		color: #0e3a82;
-		text-align: left;
-		text-shadow: 1px 1px 2px black;
-		text-decoration: none;
-	}
-
-	#c2 p2 {
-		font-size: 1.5rem;
-		line-height: 100%;
-		letter-spacing: 0rem;
-		color: black;
-		text-align: left;
-		text-shadow: 1px 1px 2px #808080;
-		text-decoration: none;
-	}
-	
-	#c2 p3 {
-		position: absolute;
-		right: 4rem;
-		font-size: 1.5rem;
-		line-height: 100%;
-		letter-spacing: 0rem;
-		color: black;
-		text-align: left;
-		text-shadow: 1px 1px 2px #808080;
-		text-decoration: none;
-	}
-}
-
 /* 08. 'Contact me' format */
 #c3 {
 		margin-top: 34rem;
@@ -737,35 +307,6 @@ html, body {
 	text-align: center;
 	text-shadow: 2px 2px 2px #808080;
 	text-decoration: none;
-}
-
-@media only screen and (max-height: 1000px){
-	#c3 {
-		margin-top: 31rem;
-	}
-}
-
-@media only screen and (max-width: 1600px) {
-	#c3 {
-		margin-top: 32rem;
-	}
-}
-
-@media only screen and (max-width: 750px) {
-	#c3 {
-		margin-top: 17rem;
-		width: 30rem;
-	}
-	
-	#c3 a {
-		font-size: 2rem;
-		line-height: 100%;
-		letter-spacing: 0.2rem;
-		color: black;
-		text-align: center;
-		text-shadow: 1px 1px 2px #808080;
-		text-decoration: none;
-	}
 }
 
 /* 09. Icons size */
@@ -789,76 +330,4 @@ html, body {
 .icons li {
 	display: inline;
 	margin-right: 4.5rem;
-}
-
-@media only screen and (max-height: 1000px){
-	.icons {
-		position: absolute;
-		top: 5.5rem;
-		right: -0.5rem;
-		width: 35rem;
-	}
-
-	.icons img {
-		width: 5.2rem;
-		height: 5.2rem;
-		opacity: 0.7;
-	}
-
-	.icons img:hover {
-		opacity: 1;
-	}
-
-	.icons li {
-		display: inline;
-		margin-right: 4rem;
-	}
-}
-
-@media only screen and (max-width: 1600px) {
-	.icons {
-		position: absolute;
-		top: 7.6rem;
-		right: 1rem;
-		width: 38.5rem;
-	}
-
-	.icons img {
-		width: 5rem;
-		height: 5rem;
-		opacity: 0.7;
-	}
-
-	.icons img:hover {
-		opacity: 1;
-	}
-
-	.icons li {
-		display: inline;
-		margin-right: 4rem;
-	}
-}
-
-@media only screen and (max-width: 750px) {
-	.icons {
-		position: absolute;
-		top: 3.8rem;
-		right: -0.95rem;
-		width: 18.5rem;
-	}
-
-	.icons img {
-		width: 2.5rem;
-		height: 2.5rem;
-		opacity: 0.7;
-	}
-
-	.icons img:hover {
-		opacity: 1;
-	}
-
-	.icons li {
-		display: inline;
-		margin-right: 1rem;
-	}
-}
+}	
