@@ -28,27 +28,44 @@ function Func_me() {
 */
 
 /* 2. Change showing case */
+var start = false;
+
 function Func_me() {
-	$("#c0").fadeOut(750);
-    $("#c2").fadeOut(750);
-    $("#c3").fadeOut(750);
-    $("#c1").fadeIn(750);
+	if (start)
+	{
+		return;
+	}
+	start = true;
+	$("#c0").fadeOut(550);
+    $("#c2").fadeOut(550);
+    $("#c3").fadeOut(550);
+    $("#c1").fadeIn(550, function(){start = false});
     document.getElementById("myTitle").innerHTML = "about me";
 }
 
 function Func_pur() {
-	$("#c0").fadeOut(750);
-    $("#c1").fadeOut(750);
-    $("#c3").fadeOut(750);
-    $("#c2").fadeIn(750);
+	if (start)
+	{
+		return;
+	}
+	start = true;
+	$("#c0").fadeOut(550);
+    $("#c1").fadeOut(550);
+    $("#c3").fadeOut(550);
+    $("#c2").fadeIn(550, function(){start = false});
     document.getElementById("myTitle").innerHTML = "my purpose";
 }
 
 function Func_con() {
-	$("#c0").fadeOut(750);
-    $("#c1").fadeOut(750);
-    $("#c2").fadeOut(750);
-    $("#c3").fadeIn(750);
+	if (start)
+	{
+		return;
+	}
+	start = true;
+	$("#c0").fadeOut(550);
+    $("#c1").fadeOut(550);
+    $("#c2").fadeOut(550);
+    $("#c3").fadeIn(550, function(){start = false});
     document.getElementById("myTitle").innerHTML = "contact me";
 }
 
