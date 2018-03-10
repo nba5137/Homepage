@@ -144,6 +144,10 @@ html, body {
 		font-size: 3.4rem;
 	}
 	
+	.sub-menu-parent { 
+		left: 7rem;
+	}
+	
 	.box-1 {
 		margin-left: 5.5rem;
 		margin-top: 1.6rem;
@@ -155,7 +159,8 @@ html, body {
 
 /* 05. Paddings */
 .overlay {
-	position: absolute;
+	position: fixed;
+	overflow-x: hidden; 
 	margin: 0;
 	width: 100%;
 	height: 100%;
@@ -302,14 +307,18 @@ html, body {
 }
 
 @media screen and (min-width: 768px) {
+	#c1 {
+		width: 60%; 
+	}
+	
 	#c1 img {
 		height: 15rem;
 		width: 15rem;
-		margin: 8.5rem 5rem 6rem 0; 
+		margin: 4.9rem 5rem 6rem 0; 
 	}
 
 	#c1 fsize {
-		font-size: 4rem;
+		font-size: 3.2rem;
 		line-height: 120%;
 		letter-spacing: .1rem;
 	}	
