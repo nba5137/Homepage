@@ -314,7 +314,8 @@ html, body {
 	#c1 img {
 		height: 15rem;
 		width: 15rem;
-		margin: 4.9rem 5rem 6rem 0; 
+		margin: 4.75rem 5rem 6rem 0; 
+		border: double 0.8rem #483D8B;
 	}
 
 	#c1 fsize {
