@@ -293,6 +293,7 @@ html, body {
 	border-radius: 50%;
 	float: left; 
 	margin: 5rem 2rem 6rem 0; 
+	border: double 0.8rem #483D8B;
 }
 
 #c1 fsize {
@@ -314,8 +315,7 @@ html, body {
 	#c1 img {
 		height: 15rem;
 		width: 15rem;
-		margin: 4.75rem 5rem 6rem 0; 
-		border: double 0.8rem #483D8B;
+		margin: 4.35rem 5rem 6rem 0; 
 	}
 
 	#c1 fsize {
