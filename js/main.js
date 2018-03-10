@@ -16,7 +16,6 @@ function Func_top() {
     $("#c2").fadeOut(500);
     $("#c3").fadeOut(500);
     $("#c0").fadeIn(500);
-    document.getElementById('ol').style.height = '100%';
     document.getElementById("myTitle").innerHTML = "welcome";
 }
 
@@ -34,7 +33,6 @@ function Func_me() {
     $("#c2").fadeOut(750);
     $("#c3").fadeOut(750);
     $("#c1").fadeIn(750);
-    document.getElementById('ol').style.height = '105%';
     document.getElementById("myTitle").innerHTML = "about me";
 }
 
@@ -43,7 +41,6 @@ function Func_pur() {
     $("#c1").fadeOut(750);
     $("#c3").fadeOut(750);
     $("#c2").fadeIn(750);
-    document.getElementById('ol').style.height = '135%';
     document.getElementById("myTitle").innerHTML = "my purpose";
 }
 
@@ -52,7 +49,6 @@ function Func_con() {
     $("#c1").fadeOut(750);
     $("#c2").fadeOut(750);
     $("#c3").fadeIn(750);
-    document.getElementById('ol').style.height = '100%';
     document.getElementById("myTitle").innerHTML = "contact me";
 }
 
