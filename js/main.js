@@ -36,10 +36,10 @@ function Func_me() {
 		return;
 	}
 	start = true;
-	$("#c0").fadeOut(550);
-    $("#c2").fadeOut(550);
-    $("#c3").fadeOut(550);
-    $("#c1").fadeIn(550, function(){start = false});
+	$("#c0").fadeOut(500);
+    $("#c2").fadeOut(500);
+    $("#c3").fadeOut(500);
+    $("#c1").fadeIn(500, function(){start = false});
     document.getElementById("myTitle").innerHTML = "about me";
 }
 
@@ -49,10 +49,10 @@ function Func_pur() {
 		return;
 	}
 	start = true;
-	$("#c0").fadeOut(550);
-    $("#c1").fadeOut(550);
-    $("#c3").fadeOut(550);
-    $("#c2").fadeIn(550, function(){start = false});
+	$("#c0").fadeOut(500);
+    $("#c1").fadeOut(500);
+    $("#c3").fadeOut(500);
+    $("#c2").fadeIn(500, function(){start = false});
     document.getElementById("myTitle").innerHTML = "my purpose";
 }
 
@@ -62,10 +62,10 @@ function Func_con() {
 		return;
 	}
 	start = true;
-	$("#c0").fadeOut(550);
-    $("#c1").fadeOut(550);
-    $("#c2").fadeOut(550);
-    $("#c3").fadeIn(550, function(){start = false});
+	$("#c0").fadeOut(500);
+    $("#c1").fadeOut(500);
+    $("#c2").fadeOut(500);
+    $("#c3").fadeIn(500, function(){start = false});
     document.getElementById("myTitle").innerHTML = "contact me";
 }
 
