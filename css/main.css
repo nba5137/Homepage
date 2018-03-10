@@ -63,6 +63,7 @@ html, body {
 	}
 	
 	.main-title-2   {
+		margin-top: 3rem;
 		font-size: 12rem;
 	}
 }
@@ -284,7 +285,7 @@ html, body {
 	margin-left: auto;
 	margin-right: auto;
 	float: left;
-	padding-bottom: 3.5rem;
+	padding-bottom: 5.5rem;
 }
 
 #c1 img {
@@ -334,7 +335,7 @@ html, body {
 	margin-left: auto;
 	margin-right: auto;
 	float: left;
-	padding-bottom: 5.5rem;
+	padding-bottom: 8rem;
 }
 
 #c2 p {
