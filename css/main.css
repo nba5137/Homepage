@@ -49,13 +49,22 @@ html, body {
 }
 
 .main-title-2   {
-	margin-top:-1px;
 	font-size: 7rem;
 	line-height: 100%;
 	letter-spacing: .2rem;
 	color: black;
 	text-align: center;
 	text-shadow: 4px 4px 4px white;
+}
+
+@media screen and (min-width: 768px) {
+	.main-title-1   {
+		font-size: 4.5rem;
+	}
+	
+	.main-title-2   {
+		font-size: 12rem;
+	}
 }
 
 /* 04. Header & Backgrounds */
@@ -130,6 +139,20 @@ html, body {
 	margin: 0 auto;
 }
 
+@media screen and (min-width: 768px) {
+	.nav a {
+		font-size: 3.4rem;
+	}
+	
+	.box-1 {
+		margin-left: 5.5rem;
+		margin-top: 1.6rem;
+		padding-top: 2.8rem;
+		height: 9rem;
+		width: 30rem; 
+	}
+}
+
 /* 05. Paddings */
 .overlay {
 	position: absolute;
@@ -176,6 +199,12 @@ html, body {
 	font-weight: normal;
 }
 
+@media screen and (min-width: 768px) {
+	.pd-h{
+		height: 17.5rem;
+	}
+}
+
 /* Title shapes */
 .shape-font{
 	padding-top: 0.3rem;
@@ -219,6 +248,28 @@ html, body {
 	padding-bottom: 3.5rem;
 }
 
+@media screen and (min-width: 768px) {
+	.shape-font{
+		padding-top: 0.2rem;
+		font-size: 2rem; 
+	}
+
+	.shape-t {
+		width: 18rem; 
+		height: 4rem;
+		margin: -4rem;
+	}
+
+	.shape-t:after {
+		border-left: 9rem solid transparent;
+		border-right: 9rem solid transparent;
+	}
+
+	.shape-t:after {
+		border-bottom: 1.5rem solid #000000;
+	}
+}
+
 /* 06. 'About me' format */
 #c1 {
 	width: 80%; 
@@ -248,6 +299,20 @@ html, body {
 
 #c1 key {
 	text-shadow: 1px 1px 2.5px #0e3a82;
+}
+
+@media screen and (min-width: 768px) {
+	#c1 img {
+		height: 15rem;
+		width: 15rem;
+		margin: 8.5rem 5rem 6rem 0; 
+	}
+
+	#c1 fsize {
+		font-size: 4rem;
+		line-height: 120%;
+		letter-spacing: .1rem;
+	}	
 }
 
 /* 07. 'My purpose' format */
@@ -294,6 +359,20 @@ html, body {
 	text-decoration: none;
 }
 
+@media screen and (min-width: 768px) {
+	#c2 p {
+		font-size: 3.5rem;
+	}
+
+	#c2 p2 {
+		font-size: 3.5rem;
+	}
+
+	#c2 p3 {
+		font-size: 3.5rem;
+	}
+}
+
 /* 08. 'Contact me' format */
 #c3 {
 	width: 80%; 
@@ -316,12 +395,23 @@ html, body {
 	text-decoration: none;
 }
 
+@media screen and (min-width: 768px) {
+	#c3 a {
+		font-size: 3.8rem;
+		line-height: 125%;
+		letter-spacing: 0.1rem;
+		color: black;
+		text-align: center;
+		text-shadow: 2px 2px 2px #808080;
+		text-decoration: none;
+	}
+}
+
 /* 09. Icons size */
 .icons {
 	position: absolute;
 	top: 4.2rem;
 	right: 1.5rem;
-	float: left;
 }
 
 .icons img {
@@ -333,4 +423,18 @@ html, body {
 
 .icons img:hover {
 	opacity: 1;
+}
+
+@media screen and (min-width: 768px) {
+	.icons {
+		position: absolute;
+		top: 4.8rem;
+		right: 4rem;
+	}
+
+	.icons img {
+		width: 5.5rem;
+		height: 5.5rem;
+		margin-right: 3rem;
+	}	
 }
