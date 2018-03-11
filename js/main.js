@@ -4,10 +4,17 @@
  * 12/10/2017
  * 
  * ===================================================================
+ * 0. Initial case
  * 1. Scroll to top of the page.
  * 2. Change showing case.
  * ------------------------------------------------------------------- 
  */ 
+
+/* 0. Initial case */
+function initial() {
+	$("#c0").fadeIn(750);
+    document.getElementById("myTitle").innerHTML = "welcome";
+}
 
 /* 1. Scroll to top of the page */
 function Func_top() {
